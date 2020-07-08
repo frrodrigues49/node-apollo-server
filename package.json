@@ -1,0 +1,27 @@
+{
+  "name": "node-apollo-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frrodrigues49/node-apollo-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frrodrigues49/node-apollo-server/issues"
+  },
+  "homepage": "https://github.com/frrodrigues49/node-apollo-server#readme",
+  "dependencies": {
+    "apollo-server": "^2.15.1",
+    "graphql": "^15.3.0",
+    "nodemon": "^2.0.4"
+  }
+}
